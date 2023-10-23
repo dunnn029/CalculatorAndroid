@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             else -> {
-                input = if (screenText == "0" || screenText == firstValue || firstValue == "") data
+                input = if (screenText == "0" || screenText == firstValue) data
                 else screenText + data
             }
         }
